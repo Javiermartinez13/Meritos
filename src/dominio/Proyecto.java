@@ -2,17 +2,17 @@ package dominio;
 
 public class Proyecto extends Merito{
     
-    protected double financiación;
+    protected double financiacion;
 
-    public Proyecto (String titulo, double financiación)
+    public Proyecto (String titulo, double financiacion)
     {
         super(titulo);
-        this.financiación = financiación;
+        this.financiacion = financiacion;
     }
 
     public double valorar()
     {
-        return financiación/100000;
+        return financiacion/100000;
     }
 }
 
