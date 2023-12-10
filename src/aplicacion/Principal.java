@@ -5,7 +5,7 @@ import dominio.Proyecto;
 import dominio.Catedratico;
 import dominio.ProfesorTitular;
 
-public class Principal{
+public class Principal{ 
 
 public static void main(String[] args) {
 	
